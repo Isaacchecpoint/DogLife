@@ -1,0 +1,17 @@
+passo a passo criar projeto
+
+1:definir scopo do projeto
+2:fazer levantamento de requisitos
+3:definir Stacks
+4:buscar referencias 
+5:programar
+
+1:clona o site dog life
+2:clona a paginas inicio,planos,credenciamento
+3:html,css,javaScript,git
+4:www.Dog life.com.br
+
+.passo 3:
+passo 1:criar repositorio git
+passo 2:iniciar estrutura base:html anatomia,importa o css para o html,importar o javaScript para o html,colocar as tags em cada
+passo 3:definir paleta de cores no css
