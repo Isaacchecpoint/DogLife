@@ -3,8 +3,10 @@
     --cor-primaria1:#2CA577;
     --cor-primaria2:#41CD97;
     --cor-primaria3:#ffffff;
+    
 
     --cor-secundaria:#1E4146;
+    --cor-secundaria2:#F8F9FA;
 
     --cor-gray1:#343A40;
     --cor-gray2:#495057;
@@ -17,38 +19,77 @@
 }
 
 body {
-    font-family: sans-serif;
-
+    font-family: Lato, sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 
 
 #cabecalho {
-    width: 100%;
-    padding: 8px;
+    width: 99%;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
     border-bottom: 0.2px solid var(--cor-gray5);
+    align-self: center;
 }
 
 
 #logo {
     height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#rigthMenu {
+    margin-right: 25px;
 }
 
 #menu ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
-
     margin: 0px;
     padding-left: 27px;
+    align-self: center;
 }
 
 #menu li {
     display: inline-block;
     padding: 5px;
+}
+
+#botaoCabecalho {
+    background-color: var(--cor-primaria1);
+    color: var(--cor-primaria3);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin: 0px;
+    border: 1px transparent;
+    font-weight: bold;
+}
+
+#botao {
+    background-color: var(--cor-primaria1);
+    color: var(--cor-primaria3);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin: 0px;
+    border: 1px transparent;
+    font-weight: bold;
 }
 
 .linknavbar {
@@ -58,8 +99,66 @@ body {
     font-size: 14px;
 }
 
-#corpo {
-    width: 270px;
-    height: 201px;
+
+
+#banner {
+    width: 508px;
+    height: 307px;
+    margin-left: 90px;
+    padding-top: 0px;
+}
+
+#banner2 {
+    width: 1100px;
+    height: 277px;
+    margin-top: 50px;
+    border-radius: 25px;
+    margin-left: 150px;
+}
+
+#rodape {
+    width: 510px;
+    height: 58px;
+    margin-left: 300px;
+}
+
+#botao2 {
+    background-color: var(--cor-primaria1);
+    color: var(--cor-primaria3);
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin: 0px;
+    border: 1px transparent;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+}
+
+.col-text-corpo {
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.col-banner {
+    border-radius: 150px 0px 0px 150px;
+    background-color: var(--cor-secundaria2);
+    flex: 1;
     
 }
+
+.h1 {
+    font-size: 40px;
+    font-weight: Regular;
+    color: var(--cor-primaria1);
+}
+
+.text-muted {
+    font-size: 12.8px;
+    color: var(--cor-gray3);
+}
+
+
