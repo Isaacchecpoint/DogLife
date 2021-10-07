@@ -66,9 +66,9 @@ body {
     padding: 5px;
 }
 
-#botaoCabecalho {
+.botao {
     background-color: var(--cor-primaria1);
-    color: var(--cor-primaria3);
+    color: var(--cor-primaria3) !important;
     border-radius: 25px;
     padding-left: 20px;
     padding-top: 15px;
@@ -77,20 +77,9 @@ body {
     margin: 0px;
     border: 1px transparent;
     font-weight: bold;
+    position: relative;
 }
 
-#botao {
-    background-color: var(--cor-primaria1);
-    color: var(--cor-primaria3);
-    border-radius: 25px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    margin: 0px;
-    border: 1px transparent;
-    font-weight: bold;
-}
 
 .linknavbar {
     text-decoration: none;
@@ -104,16 +93,17 @@ body {
 #banner {
     width: 508px;
     height: 307px;
-    margin-left: 90px;
-    padding-top: 0px;
+    margin-left: 100px;
+    margin-top: -10px;
+    font-size: 14px;
 }
 
 #banner2 {
     width: 1100px;
     height: 277px;
-    margin-top: 50px;
-    border-radius: 25px;
-    margin-left: 150px;
+    margin-top: 30px;
+    border-radius: 17px 17px 17px 17px;
+    margin-left: 200px;
 }
 
 #rodape {
@@ -122,43 +112,69 @@ body {
     margin-left: 300px;
 }
 
-#botao2 {
-    background-color: var(--cor-primaria1);
-    color: var(--cor-primaria3);
-    border-radius: 25px;
-    padding-left: 20px;
-    padding-top: 15px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    margin: 0px;
-    border: 1px transparent;
-    font-weight: bold;
-}
 
 .row {
     display: flex;
 }
 
-.col-text-corpo {
+#col-text-corpo {
     margin-left: 160px;
     margin-top: 60px;
+    padding: 35px;
 }
-.col-banner {
-    border-radius: 150px 0px 0px 150px;
+
+
+
+#col-banner {
+    border-radius: 170px 0px 0px 170px;
+    margin-top: 40px;
     background-color: var(--cor-secundaria2);
     flex: 1;
-    
+    margin-left: 70px;
 }
+
+
 
 .h1 {
     font-size: 40px;
-    font-weight: Regular;
+    font-weight: bold;
     color: var(--cor-primaria1);
 }
 
 .text-muted {
     font-size: 12.8px;
     color: var(--cor-gray3);
+    font-weight: 600;
 }
+
+#titulo {
+    position: relative;
+    top: 6px;
+    line-height: 50px;
+}
+
+#subtitulo2 {
+    font-size: 18px;
+    color: var(--cor-gray2);
+    font-weight: lighter;
+    position: relative;
+    top: 16px;
+}
+
+#botaotextcol {
+   position: relative;
+   top: 35px;
+    
+}
+
+.h2 {
+
+}
+
+#sessaoAmpla {
+    margin-left: 200px;
+}
+
+
 
 
