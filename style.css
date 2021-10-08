@@ -25,7 +25,6 @@ body {
 }
 
 
-
 #cabecalho {
     width: 99%;
     padding-left: 15px;
@@ -42,15 +41,18 @@ body {
     margin-bottom: auto;
 }
 
+
 #menu{
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
 
+
 #rigthMenu {
     margin-right: 25px;
 }
+
 
 #menu ul {
     list-style: none;
@@ -61,10 +63,12 @@ body {
     align-self: center;
 }
 
+
 #menu li {
     display: inline-block;
     padding: 5px;
 }
+
 
 .botao {
     background-color: var(--cor-primaria1);
@@ -89,7 +93,6 @@ body {
 }
 
 
-
 #banner {
     width: 508px;
     height: 307px;
@@ -98,6 +101,7 @@ body {
     font-size: 14px;
 }
 
+
 #banner2 {
     width: 1100px;
     height: 277px;
@@ -105,6 +109,7 @@ body {
     border-radius: 17px 17px 17px 17px;
     margin-left: 200px;
 }
+
 
 #rodape {
     width: 510px;
@@ -117,12 +122,12 @@ body {
     display: flex;
 }
 
+
 #col-text-corpo {
     margin-left: 160px;
     margin-top: 60px;
     padding: 35px;
 }
-
 
 
 #col-banner {
@@ -134,12 +139,12 @@ body {
 }
 
 
-
 .h1 {
     font-size: 40px;
     font-weight: bold;
     color: var(--cor-primaria1);
 }
+
 
 .text-muted {
     font-size: 12.8px;
@@ -147,11 +152,73 @@ body {
     font-weight: 600;
 }
 
-#titulo {
-    position: relative;
-    top: 6px;
-    line-height: 50px;
+
+.text-primaria1 {
+    color: var(--cor-primaria1);
 }
+
+
+.text-primaria2 {
+    color: var(--cor-primaria2);
+}
+
+
+.text-primaria3 {
+    color: var(--cor-primaria3);
+}
+
+
+.text-secundaria {
+    color: var(--cor-secundaria);
+}
+
+
+.text-secundaria2 {
+    color: var(--cor-secundaria2);
+}
+
+
+.text-gray1 {
+    color: var(--cor-gray1);
+}
+
+
+.text-gray2 {
+    color: var(--cor-gray2);
+}
+
+
+.text-gray3 {
+    color: var(--cor-gray3);
+}
+
+
+.text-gray4 {
+    color: var(--cor-gray4);
+}
+
+
+.text-gray5 {
+    color: var(--cor-gray5);
+}
+
+
+.text-black1 {
+    color: var(--cor-black1);
+}
+
+
+.text-black2 {
+    color: var(--cor-black2);
+}
+
+
+.titulo {
+    color: var(--cor-primaria1);
+    font-size: 27.8px;
+    font-weight: regular;
+}
+
 
 #subtitulo2 {
     font-size: 18px;
@@ -161,18 +228,61 @@ body {
     top: 16px;
 }
 
+
 #botaotextcol {
    position: relative;
-   top: 35px;
+   top: 35px; 
+}
+
+
+#textSessaoAmpla {
+    margin-top: 150px;
+    margin-bottom: 300px;
+    margin-left: 200px;
+}
+
+
+#tituloSessaoAmpla {
+    margin-left: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+
+.titulo {
+    font-size: 32px;
+   
+}
+
+
+.subtituloSessaoAmpla {
+    font-size: 16px;
     
 }
 
-.h2 {
 
+.textoSessaoAmpla {
+    font-size: 16px;
+    
 }
 
-#sessaoAmpla {
-    margin-left: 200px;
+
+#autorSessaoAmpla {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.finalSessaoAmpla {
+    font-size: 16px;
+    
+}
+
+#imagenMapa {
+    margin-left: 600px;
+    width: 1519px;
+    height: 586px;
+    margin-top: -600px;
 }
 
 
