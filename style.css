@@ -105,9 +105,10 @@ body {
 #banner2 {
     width: 1100px;
     height: 277px;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 17px 17px 17px 17px;
     margin-left: 200px;
+    margin-bottom: 50px;
 }
 
 
@@ -236,9 +237,12 @@ body {
 
 
 #textSessaoAmpla {
-    margin-top: 150px;
-    margin-bottom: 300px;
+    margin-top: 180px;
+    margin-bottom: 240px;
     margin-left: 200px;
+    width: 445px;
+    height: 346px;
+    font-weight: lighter;
 }
 
 
@@ -252,19 +256,16 @@ body {
 
 .titulo {
     font-size: 32px;
-   
 }
 
 
 .subtituloSessaoAmpla {
     font-size: 16px;
-    
 }
 
 
 .textoSessaoAmpla {
     font-size: 16px;
-    
 }
 
 
@@ -275,16 +276,73 @@ body {
 
 .finalSessaoAmpla {
     font-size: 16px;
-    
 }
 
 #imagenMapa {
-    margin-left: 600px;
-    width: 1519px;
-    height: 586px;
-    margin-top: -600px;
+    margin-left: 660px;
+    margin-top: -720px;
+    font-weight: lighter;
+    font-size: 16px;
+    border-radius: 14px 14px 14px 14px;
+    margin-bottom: 80px;
+}
+
+#imagenCachorro {
+    margin-bottom: 170px;
+    margin-left: -10px;
+}
+
+#textSessaoReembolso {
+    margin-top: -590px;
+    margin-bottom: 200px;
+    margin-left: 770px;
+    width: 580px;
+    height: 374px;
+    font-weight: lighter;
+}
+
+#tituloSessaoReembolso {
+    margin-left: 0px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+.titulo2 {
+    font-size: 32px;
+    color: var(--cor-primaria1);
 }
 
 
+.textoSessaoReembolso{
+    font-size: 16px;
+}
+
+.miniSubtituloReembolso {
+    font-size: 12.8px;
+}
+
+#autorSessaoReembolso {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.finalSessaoReembolso {
+    font-size: 16px;
+}
+
+#banerServiços {
+    margin-left: 800px;
+    margin-bottom: 200px;
+}
+
+#textDescontos {
+    margin-top: -580px;
+    margin-bottom: 240px;
+    margin-left: 200px;
+    width: 540px;
+    height: 318px;
+    font-weight: lighter;
+}
 
 
